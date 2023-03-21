@@ -1,4 +1,5 @@
 function bmi(peso, altura) {
+    if (peso <= 0 || altura <= 0) return 0
     return peso / altura ** 2
 }
 
