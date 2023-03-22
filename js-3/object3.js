@@ -15,10 +15,10 @@ receta.ingredientes.push({
 
 console.log(receta.ingredientes[0]);
 
-let suma_cantidad =0;
-for(let i = 0; i < receta.ingredientes.length; i++ ){
-    for(const key in receta.ingredientes[i]){
-        if (key === "cantidad"){
+let suma_cantidad = 0;
+for (let i = 0; i < receta.ingredientes.length; i++) {
+    for (const key in receta.ingredientes[i]) {
+        if (key === "cantidad") {
             suma_cantidad += receta.ingredientes[i][key];
         }
     }
