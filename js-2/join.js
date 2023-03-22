@@ -1,5 +1,5 @@
 const join = function (arreglo) {
-    if (arreglo === 0) return "";
+    if (arreglo.length === 0) return "";
     let str = "";
 
     for (let word of arreglo) {
